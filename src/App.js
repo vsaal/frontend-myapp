@@ -26,7 +26,7 @@ function App() {
         await client.get("/auth");
         setAuth(true);
       } catch (err) {
-        console.log("not valid token");
+        console.log("not valid tokenn");
       }
     };
     func();
